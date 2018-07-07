@@ -4,10 +4,11 @@ body {
   line-height: 34px;
   color: #777;
   background: url("../images/concrete_seamless.png");
+  background-color: #666
  
     
   }
-}
+
 
 * {
   box-sizing: border-box;
@@ -149,7 +150,29 @@ h3, h2 {
 
 /* portfolio page */
 
-.work {
+#port {
+  color: white;
+}
+
+#title {
+  color: white;
+
+}
+
+#git {
+  color: white;
+  border: solid inherit;
+  background-color: black;
+  margin-left: 150px;
+  margin-right: 150px;
+
+}
+
+
+
+
+
+/* .work {
   position: relative;
   float: left;
   width: 274px;
@@ -187,7 +210,9 @@ h3, h2 {
   height: auto;
   margin-top: 10px;
   margin-right: 25px;
-}
+} */
+
+
 
 /* contact page */
 
